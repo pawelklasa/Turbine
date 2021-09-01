@@ -4034,6 +4034,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  border-bottom: 1px solid #242424;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -7506,7 +7507,7 @@ textarea.form-control-lg {
 }
 
 .pt-4 {
-  background-color: #060606;
+  background-color: #000;
   padding-top: 1.5rem !important;
 }
 
@@ -7836,7 +7837,7 @@ textarea.form-control-lg {
 }
 
 .bg-dark {
-  --bs-bg-opacity: 1;
+  --bs-bg-opacity: 0.8;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
