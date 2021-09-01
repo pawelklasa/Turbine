@@ -11316,3 +11316,8 @@ textarea.form-control-lg {
   align-items: center;
   text-align: center;
 }
+
+.img {
+  display:block;
+  margin:auto;
+}
