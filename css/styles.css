@@ -7349,7 +7349,6 @@ textarea.form-control-lg {
 }
 
 .mb-0 {
-  color: #0dcaf0;
   margin-bottom: 0 !important;
 }
 
@@ -11310,6 +11309,10 @@ textarea.form-control-lg {
 
 .center {
   padding-left: 18%;
+  align-items: center;
+  text-align: center;
+}
+.center2 {
   align-items: center;
   text-align: center;
 }
