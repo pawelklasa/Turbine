@@ -7792,6 +7792,7 @@ textarea.form-control-lg {
 }
 
 .text-white {
+  text-align: left;
   font-family: 'Roboto', sans-serif;
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
@@ -7816,6 +7817,7 @@ textarea.form-control-lg {
 }
 
 .text-white-50 {
+  text-align: left;
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.5) !important;
 }
@@ -9169,8 +9171,8 @@ textarea.form-control-lg {
   }
 
   .px-md-5 {
-    padding-right: 3rem !important;
-    padding-left: 3rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
   }
 
   .py-md-0 {
@@ -10471,10 +10473,9 @@ textarea.form-control-lg {
   }
 
   .px-xl-5 {
-    padding-right: 3rem !important;
-    padding-left: 3rem !important;
+    padding-right: 8.5rem !important;
+    padding-left: 8.5rem !important;
   }
-
   .py-xl-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
