@@ -643,29 +643,53 @@ progress {
   margin-left: auto;
 }
 
+@media (min-width: 300px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+  .hero-image {
+    width: 50%;
+  }
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
+  }
+  .hero-image {
+    width: 50%;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
+  .hero-image {
+    width: 50%;
+  }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
+  }
+  .hero-image {
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
   }
+  .hero-image {
+    width: 100%;
+  }
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 98%;
+  }
+  .hero-image {
+    width: 100%;
   }
 }
 .row {
@@ -899,6 +923,8 @@ progress {
     flex: 1 0 0%;
   }
 
+  
+
   .row-cols-sm-auto > * {
     flex: 0 0 auto;
     width: auto;
@@ -1111,6 +1137,8 @@ progress {
   .col-md {
     flex: 1 0 0%;
   }
+
+
 
   .row-cols-md-auto > * {
     flex: 0 0 auto;
@@ -1325,6 +1353,7 @@ progress {
     flex: 1 0 0%;
   }
 
+
   .row-cols-lg-auto > * {
     flex: 0 0 auto;
     width: auto;
@@ -1392,7 +1421,7 @@ progress {
 
   .col-lg-6 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 65%;
   }
 
   .col-lg-7 {
@@ -7427,7 +7456,7 @@ textarea.form-control-lg {
 }
 
 .p-5 {
-  padding: 3rem !important;
+  padding: 0rem !important;
 }
 
 .px-0 {
@@ -9791,7 +9820,8 @@ textarea.form-control-lg {
   }
 
   .px-lg-5 {
-
+    padding-right: 8.5rem !important;
+    padding-left: 8.5rem !important;
   }
 
   .py-lg-0 {
@@ -11337,10 +11367,21 @@ textarea.form-control-lg {
 .wrap-text {
   display:block;
   margin:auto;
-  width: 50%;
+  width: 80%;
 }
 
 .last-button {
   margin-top: 20px;;
 }
 
+.hero-image {
+  margin-left: 40px;
+}
+
+.align-text-left {
+  text-align: left;
+}
+
+.video-width {
+  width: 300px;
+}
