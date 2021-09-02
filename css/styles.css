@@ -2785,7 +2785,7 @@ textarea.form-control-lg {
 .input-group-sm > .form-select,
 .input-group-sm > .input-group-text,
 .input-group-sm > .btn {
-  padding: 0.25rem 0.5rem;
+  padding: 0.2rem 0.5rem;
   font-size: 0.875rem;
   border-radius: 10rem;
 }
@@ -3480,7 +3480,7 @@ textarea.form-control-lg {
 }
 
 .btn-lg, .btn-group-lg > .btn {
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 1rem;
   font-size: 1.25rem;
   border-radius: 5rem;
 }
@@ -11338,3 +11338,6 @@ textarea.form-control-lg {
   width: 50%;
 }
 
+.last-button {
+  margin-top: 20px;;
+}
