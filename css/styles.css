@@ -4032,7 +4032,7 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
+  padding-top: 0rem;
   padding-bottom: 0rem;
   border-bottom: 1px solid #242424;
 }
@@ -11316,6 +11316,8 @@ textarea.form-control-lg {
 
 .footer {
   height: 60px;
+  padding-top: 20px;
+  background-color: #101214;
 }
 
 .center {
@@ -11341,3 +11343,4 @@ textarea.form-control-lg {
 .last-button {
   margin-top: 20px;;
 }
+
