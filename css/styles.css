@@ -7516,7 +7516,7 @@ textarea.form-control-lg {
 
 .py-5 {
   height: 450px;
-  padding-top: 7rem !important;
+  padding-top: 8rem !important;
   padding-bottom: 3rem !important;
 }
 
@@ -11376,13 +11376,14 @@ textarea.form-control-lg {
 }
 
 .hero-image {
-  margin-left: 40px;
+  margin-left: 9%;
+  margin-right: 9%;
 }
 
 .align-text-left {
-  text-align: left;
+  text-align: center;
 }
 
 .video-width {
-  width: 300px;
+  width: 400px;
 }
